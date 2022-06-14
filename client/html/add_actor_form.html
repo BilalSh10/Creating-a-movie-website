@@ -1,0 +1,50 @@
+<!-- index.html -->
+<!doctype html>
+<html>
+<head>
+    <title>ADD actor</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- load bootstrap via CDN -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+    "></script> <!-- load jquery via CDN -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="../js/add_actor.js">
+    </script> <!-- load our javascript file -->
+</head>
+
+<body>
+    <div class="col-sm-6 col-sm-offset-3">
+
+        <h1>add new actor</h1>
+
+        <!-- OUR FORM -->
+        <form id="actor_form" name="actor_form" method="PUT">
+
+            <!-- NAME -->
+            <div id="name-group" class="form-group">
+                <label for="name">actor name</label>
+                <input type="text" class="form-control" name="name" id="actorname" placeholder="write actor name here"
+                    required>
+                <!-- errors will go here -->
+            </div>
+
+            <!-- picture -->
+            <div id="name-group" class="form-group">
+                <label for="img">actor picture:</label>
+                <input type="text" id="actorimg" name="actorimg" class="form-control" placeholder="write the wanted image URL">
+            </div>
+             <!-- site -->
+             <div id="name-group" class="form-group">
+                <label for="img">fan site:</label>
+                <input type="text" id="site" name="site" class="form-control" placeholder="write the fan site URL">
+            </div>
+
+
+            <button type="submit" class="btn btn-success" id="submit">Submit <span class="fa fa-arrow-right"></span></button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

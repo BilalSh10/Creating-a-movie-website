@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    margin-bottom: 4rem;
+}
+
+#actor-image{
+    height: 200px;
+    width: 250px;
+}
+
+.actor{
+    margin-bottom: 2rem;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+.actor_name{
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+hr{
+    font-weight: 400;
+    color: black;
+}
+
+#site{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    font-size: medium;
+    padding: 4px;
+}
+
+
+.delete-actor {
+	box-shadow:inset 0px 1px 0px 0px #fcc1c1;
+	background:linear-gradient(to bottom, #ff7777 5%, #fb2525 100%);
+	background-color:#ff7777;
+	border-radius:2px;
+	border:2px solid #ee4f4f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:8px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc5252;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.delete-actor:hover {
+	background:linear-gradient(to bottom, #fb2525 5%, #ff7777 100%);
+	background-color:#fb2525;
+}
+.delete-actor:active {
+	position:relative;
+	top:1px;
+}

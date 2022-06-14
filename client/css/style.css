@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+	padding: 20px;
+	position: relative;
+	bottom: 2rem;
+}
+
+
+.film{
+    padding-left: 2rem;
+	box-shadow: 10px 10px 5px black;
+}
+
+
+.image-size{
+    margin-top: 2rem;
+    width: 18rem ;
+    height: 18rem;
+    margin-bottom: 1rem;
+}
+
+
+.new-btn {
+	display:inline-block;
+	text-align: center;
+	text-decoration: none;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:11px;
+	border:2px solid #eeb44f;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 18px;
+	text-shadow:0px 1px 0px #cc9f52;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.new-btn:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	text-decoration: none;
+	color: white;
+}
+.new-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+ul{
+    list-style-type: none;
+     margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+
+.All-films{
+	position: relative;
+}
+
+
+.grid-container {
+    display: grid;  
+	align-items: center;
+	justify-content: center; 
+    grid-template-columns:auto auto auto;
+	gap: 80px;
+}
+
+.grid-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    background-color: #f5efef;  
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    padding: 20px;
+    column-gap: 20px;
+    width: 300px;
+    text-align: center;
+	
+}
+
+/* delete button */
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #fcc1c1;
+	background:linear-gradient(to bottom, #ff7777 5%, #fb2525 100%);
+	background-color:#ff7777;
+	border-radius:2px;
+	border:2px solid #ee4f4f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:8px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc5252;
+}
+.btn:hover {
+	color: rgb(228, 216, 216);
+	background:linear-gradient(to bottom, #fb2525 5%, #ff7777 100%);
+	background-color:#fb2525;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* edit button */
+.edit {
+	box-shadow:inset 0px 1px 0px 0px #c1ccfc;
+	background:linear-gradient(to bottom, #7e77ff 5%, #4c25fb 100%);
+	background-color:#7780ff;
+	border-radius:2px;
+	border:2px solid #524fee;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:8px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5256cc;
+}
+.edit:hover {
+	background:linear-gradient(to bottom, #4525fb 5%, #8777ff 100%);
+	background-color:#2533fb;
+}
+.edit:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* add actor button */
+.add {
+	box-shadow:inset 0px 1px 0px 0px #c1ccfc;
+	background:linear-gradient(to bottom, #7e77ff 5%, #4c25fb 100%);
+	background-color:#7780ff;
+	border-radius:2px;
+	border:2px solid #524fee;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:8px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5256cc;
+}
+.add:hover {
+	background:linear-gradient(to bottom, #4525fb 5%, #8777ff 100%);
+	background-color:#2533fb;
+}
+.add:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* view actor button */
+.view {
+	box-shadow:inset 0px 1px 0px 0px #c1ccfc;
+	background:linear-gradient(to bottom, #7e77ff 5%, #4c25fb 100%);
+	background-color:#7780ff;
+	border-radius:2px;
+	border:2px solid #524fee;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:8px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5256cc;
+}
+.view:hover {
+	background:linear-gradient(to bottom, #4525fb 5%, #8777ff 100%);
+	background-color:#2533fb;
+}
+.view:active {
+	position:relative;
+	top:1px;
+}
+
+
+.sort-btn {
+	display:inline-block;
+	text-align: center;
+	text-decoration: none;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:11px;
+	border:2px solid #eeb44f;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.sort-btn:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+.sort-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.btns{
+	text-align: center;
+}
+
+
+.All-buttons{
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 4px;
+}
+
+.film-desc{
+	display: flex;
+	text-align: left;
+	margin-left: 38px;
+}
+
+.dataDetails0{
+	text-align: center;
+	margin-left: 12px;
+}
+
+.dataDetails1{
+	text-align: center;
+	margin-left: 30px;
+}
+
+.dataDetails2{
+	text-align: center;
+	margin-left: 38px;
+}
+
+.dataDetails3{
+	text-align: center;
+	margin-left: 38px;
+}
+
+.dataD{
+	font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1065px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto;  
+	  }
+  }
+
+@media only screen and (max-width: 750px) {
+    .grid-container {
+      display: grid;
+	  grid-template-columns: auto;  
+    }
+  }
