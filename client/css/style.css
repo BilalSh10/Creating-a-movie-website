@@ -225,8 +225,8 @@ ul{
 
 .All-buttons{
 	display: grid;
-	grid-template-columns: auto auto;
-	gap: 4px;
+	grid-template-columns: auto;
+	/* gap: 1px; */
 }
 
 .film-desc{
